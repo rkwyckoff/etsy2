@@ -1,40 +1,61 @@
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box; }
-
-  .title-container {
-  width: 1100px;
-  height: 60px;
-  border: solid 1px lightgrey;
+  -webkit-box-sizing: border-box;
   }
 
-  .logo {
-    color:red;
-    height: 40px;
-    float: left;
-    margin:20px auto;
+  .clearfix {
+    overflow: auto;
   }
-.logo a {
-  font-size: 35px;
-  color: red;
+
+a {
+    text-decoration: none !important;
 }
-
-  .input-box {
-    width: 300px;
-    height: 25px;
-    font-size: 10px;
+  .banner {
+    height: 60px;
+    width: 1100px;
+    margin:20px auto;
     border: solid 1px lightgrey;
-    color: white;
-  }
 
-  .search-button {
-    width: 35px;
-    height: 25px;
-    font-size: 10px;
-    background: teal
-  }
-  .customer-input {
+      ul li {
+      display: inline-block;
+      }
+
+      .logo a {
+      color:red;
+      font-size: 35px;
+      }
+
+      .input-box {
+        width: 300px;
+        height: 25px;
+        font-size: 10px;
+        border: solid 1px lightgrey;
+        color: white;
+      }
+
+      .search-button {
+        width: 50px;
+        height: 25px;
+        font-size: 10px;
+        background: #34A7C2;
+        text-align: center;
+        color: white;
+
+        a {
+        color: white;
+        }
+      }
+
+      .leftArea {
+      float: left;
+      }
+
+      .rightArea {
+      float: right;
+      }
+
+    .customer-input {
     font-size: 10px;
     color: teal;
     width: 50px;
@@ -44,12 +65,9 @@
      width: 25px;
      height: 25px;
    }
+}
 
-  a {
-  text-decoration: none !important;
-    font-size: 13px;
-    //color: teal;
-  }
+
 .nav-bar {
   width: 1100px;
   height:30px;
