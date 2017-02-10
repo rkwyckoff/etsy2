@@ -24,7 +24,7 @@ a {
       ul li {
       display: inline-block;
       font-size: 12px;
-      margin: 0px 3px;
+      margin: 0px -3px;
     }
       .logo {
         margin-top: 8px;
@@ -46,12 +46,13 @@ a {
       }
 
       .search-button {
-        width: 50px;
+        width: 55px;
         height: 25px;
         font-size: 12px;
         background: #34A7C2;
         text-align: center;
         color: white;
+        margin: 0px 6px;
 
         a {
         color: white;
@@ -65,8 +66,16 @@ a {
       padding-left: 24px;
       }
 
-      .rightArea {
+    .rightArea {
       float: right;
+
+      li {
+        margin: 0px 5px;
+      }
+
+        li a {
+        color:#34A7C2
+      }
       }
 
     .customer-input {
@@ -101,14 +110,48 @@ a {
   }
 }
 .show-res {
-  //font-size: 12px;
+  font-size: 12px;
   color: black;
-  width: 100px;
-  height: 200px;
+  width: 15%;
+  height: 20px;
+  float: left;
+  padding-top: 20px;
+  margin-left: 26px;
+  margin-bottom: 20px;
   }
+  .allcat {
+    height: 350px;
+    width: 15%;
+    margin-left: 27px;
+    font-size: 12px;
+    color: black;
+    padding-top: 14px;
+    margin-bottom: 20px;
+    clear:both;
+    border: 1px solid lightgrey;
+
+    a{
+      padding-left: 7px;
+    }
+
 
   .categories {
-width: 120px;
-height: 375px;
-text-decoration: none;
+  width: 160px;
+  height: 311px;
+  font-size: 12px;
+  margin-left: 1px;
+  margin-top: 10px;
+  padding-left: 7px;
+  padding-top: 3px;
+  color: #34A7C2
+
+  }
+
+
+  li {
+  width: 150px;
+  height: 20px;
+  text-decoration: none !important;
+  list-style: none;
+  }
 }

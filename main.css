@@ -19,7 +19,7 @@ a {
   .header ul li {
     display: inline-block;
     font-size: 12px;
-    margin: 0px 3px; }
+    margin: 0px -3px; }
   .header .logo {
     margin-top: 8px;
     margin-right: 15px; }
@@ -34,12 +34,13 @@ a {
     border: solid 1px lightgrey;
     color: white; }
   .header .search-button {
-    width: 50px;
+    width: 55px;
     height: 25px;
     font-size: 12px;
     background: #34A7C2;
     text-align: center;
-    color: white; }
+    color: white;
+    margin: 0px 6px; }
     .header .search-button a {
       color: white; }
   .header .leftArea {
@@ -49,6 +50,10 @@ a {
     padding-left: 24px; }
   .header .rightArea {
     float: right; }
+    .header .rightArea li {
+      margin: 0px 5px; }
+    .header .rightArea li a {
+      color: #34A7C2; }
   .header .customer-input {
     font-size: 12px;
     color: teal;
@@ -73,11 +78,38 @@ a {
     margin: 0px 5px; }
 
 .show-res {
+  font-size: 12px;
   color: black;
-  width: 100px;
-  height: 200px; }
+  width: 15%;
+  height: 20px;
+  float: left;
+  padding-top: 20px;
+  margin-left: 26px;
+  margin-bottom: 20px; }
 
-.categories {
-  width: 120px;
-  height: 375px;
-  text-decoration: none; }
+.allcat {
+  height: 350px;
+  width: 15%;
+  margin-left: 27px;
+  font-size: 12px;
+  color: black;
+  padding-top: 14px;
+  margin-bottom: 20px;
+  clear: both;
+  border: 1px solid lightgrey; }
+  .allcat a {
+    padding-left: 7px; }
+  .allcat .categories {
+    width: 160px;
+    height: 311px;
+    font-size: 12px;
+    margin-left: 1px;
+    margin-top: 10px;
+    padding-left: 7px;
+    padding-top: 3px;
+    color: #34A7C2; }
+  .allcat li {
+    width: 150px;
+    height: 20px;
+    text-decoration: none !important;
+    list-style: none; }
