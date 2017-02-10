@@ -96,7 +96,8 @@ a {
   padding-top: 14px;
   margin-bottom: 20px;
   clear: both;
-  border: 1px solid lightgrey; }
+  border: 1px solid lightgrey;
+  float: left; }
   .allcat a {
     padding-left: 7px; }
   .allcat .categories {
@@ -113,3 +114,16 @@ a {
     height: 20px;
     text-decoration: none !important;
     list-style: none; }
+
+.img-container {
+  width: 800px;
+  height: 800px;
+  float: right;
+  border: solid light grey 1px;
+  margin: 0px 36px; }
+  .img-container .imageBox {
+    width: 200px;
+    height: 200px; }
+
+.view-results {
+  clear: both; }

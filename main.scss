@@ -123,12 +123,14 @@ a {
     height: 350px;
     width: 15%;
     margin-left: 27px;
+    //margin-right: 27px;
     font-size: 12px;
     color: black;
     padding-top: 14px;
     margin-bottom: 20px;
     clear:both;
     border: 1px solid lightgrey;
+    float: left;
 
     a{
       padding-left: 7px;
@@ -144,9 +146,7 @@ a {
   padding-left: 7px;
   padding-top: 3px;
   color: #34A7C2
-
   }
-
 
   li {
   width: 150px;
@@ -154,4 +154,19 @@ a {
   text-decoration: none !important;
   list-style: none;
   }
+}
+.img-container {
+  width: 800px;
+  height: 800px;
+  float: right;
+  border: solid light grey 1px;
+  margin: 0px 36px;
+
+.imageBox {
+  width: 200px;
+  height: 200px;
+}
+}
+.view-results {
+  clear:both;
 }
