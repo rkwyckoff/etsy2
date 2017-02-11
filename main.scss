@@ -52,12 +52,21 @@ a {
         background: #34A7C2;
         text-align: center;
         color: white;
-        margin: 0px 6px;
+        margin: 0px -2px;
+      //  float:left;
 
         a {
         color: white;
         }
+
+        div {
+          width:55px;
+          height: 25px;
+          float: left;
+          padding-top: 6px;
+        }
   }
+
 
       .leftArea {
       float: left;
@@ -153,7 +162,11 @@ a {
   height: 20px;
   text-decoration: none !important;
   list-style: none;
-  }
+    }
+
+    li a {
+      color: #34A7C2;
+    }
 }
 .img-container {
   width: 800px;
@@ -165,6 +178,7 @@ a {
 .imageBox {
   width: 200px;
   height: 200px;
+  float: left;
 }
 }
 .view-results {

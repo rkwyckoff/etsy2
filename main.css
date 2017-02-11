@@ -40,9 +40,14 @@ a {
     background: #34A7C2;
     text-align: center;
     color: white;
-    margin: 0px 6px; }
+    margin: 0px -2px; }
     .header .search-button a {
       color: white; }
+    .header .search-button div {
+      width: 55px;
+      height: 25px;
+      float: left;
+      padding-top: 6px; }
   .header .leftArea {
     float: left;
     margin-top: 8px;
@@ -114,6 +119,8 @@ a {
     height: 20px;
     text-decoration: none !important;
     list-style: none; }
+  .allcat li a {
+    color: #34A7C2; }
 
 .img-container {
   width: 800px;
@@ -123,7 +130,8 @@ a {
   margin: 0px 36px; }
   .img-container .imageBox {
     width: 200px;
-    height: 200px; }
+    height: 200px;
+    float: left; }
 
 .view-results {
   clear: both; }

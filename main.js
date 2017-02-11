@@ -1,16 +1,22 @@
-//var image = x.image
-function placeBox() {
-  for (var i =0; i < 16; i++) {
-    // var boxArray = etsyData[i]
-    $(".img-container").html(`<div class="imageBox"><img src ="${etsyData.results[i].Images[0].url_170x135}"></div>`);
-     $(".imageBox").append(`<p>${etsyData.results[i].title}</p>`);
-     $(".imageBox").append(`<p>${etsyData.results[i].Shop.shop_name}</p>`);
-     $(".imageBox").append(`<p>${etsyData.results[i].price}</p>`);
 
-   }
+  //function placeBox() {
+
+
+    for (var i =0; i < 16; i++) {
+      var myHtml = boxTemplate(product);
+      $(".img-container").append(`<div class="imageBox"><img src ="${etsyData.results[i].Images[0].url_170x135}"></div>`);
+
+  function boxTemplate (product) {
+    return `
+    <div class="imageBox">
+    <img src="${product.Images[0].url_170x135}" />
+    <p>${product.title}</p>
+    <p>${product.Shop.shop_name}</p>
+    <p>${product.price}</p>
+  </div>
+  `;
 }
- placeBox();
-
-//function boxTemplate (etsyResult) {
-//  return ``;
+}
 //}
+//}
+//placeBox(myHtml)
