@@ -77,9 +77,15 @@ a {
 
     .rightArea {
       float: right;
+      padding-right: 37px;
 
       li {
         margin: 0px 5px;
+      }
+      li div {
+        border: 2px #34A7C2 solid;
+        padding:5px;
+        border-radius: .5em;
       }
 
         li a {
@@ -97,6 +103,8 @@ a {
      width: 25px;
      height: 25px;
      margin-right: 25px;
+     border-left: 25px lightgrey solid;
+
    }
 }
 
