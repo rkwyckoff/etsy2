@@ -3,6 +3,10 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box; }
 
+body {
+  background: rgba(158, 158, 158, 0.05);
+  width: 1100px; }
+
 .clearfix {
   overflow: auto; }
 
@@ -12,22 +16,24 @@ a {
 .header {
   height: 65px;
   width: 1100px;
-  border: solid 1px lightgrey; }
+  border: solid 1px lightgrey;
+  background: white; }
+  .header .leftArea {
+    padding-left: 24px; }
   .header ul {
-    padding-left: 20px;
-    display: inline-block; }
+    display: inline-block;
+    margin: 0px; }
   .header ul li {
     display: inline-block;
-    font-size: 12px;
-    margin: 0px -3px; }
+    font-size: 12px; }
   .header .logo {
     margin-top: 8px;
     margin-right: 15px; }
-  .header .logo a {
-    color: #F54E00;
-    font-size: 33px;
-    font-family: 'Playfair Display', serif; }
-  .header .input-box {
+    .header .logo a {
+      color: #F54E00;
+      font-size: 33px;
+      font-family: 'Playfair Display', serif; }
+  .header input {
     width: 300px;
     height: 25px;
     font-size: 10px;
@@ -35,12 +41,9 @@ a {
     color: white; }
   .header .search-button {
     width: 55px;
-    height: 25px;
-    font-size: 12px;
     background: #34A7C2;
     text-align: center;
-    color: white;
-    margin: 0px -2px; }
+    margin: -9px -5px; }
     .header .search-button a {
       color: white; }
     .header .search-button div {
@@ -48,32 +51,35 @@ a {
       height: 25px;
       float: left;
       padding-top: 6px; }
-  .header .leftArea {
-    float: left;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    padding-left: 24px; }
   .header .rightArea {
     float: right;
-    padding-right: 37px; }
-    .header .rightArea li {
-      margin: 0px 5px; }
+    padding-right: 37px;
+    padding-top: 13px;
+    margin: 4px;
+    height: 55px; }
     .header .rightArea li div {
       border: 2px #34A7C2 solid;
       padding: 5px;
       border-radius: .5em; }
     .header .rightArea li a {
-      color: #34A7C2; }
-  .header .customer-input {
-    font-size: 12px;
-    color: teal;
-    width: 50px;
-    height: 15px; }
-  .header .shop-cart {
-    width: 25px;
-    height: 25px;
-    margin-right: 25px;
-    border-left: 25px lightgrey solid; }
+      color: #34A7C2;
+      margin: 0px 5px; }
+    .header .rightArea .customer-input {
+      font-size: 12px;
+      color: teal;
+      width: 50px;
+      height: 15px; }
+    .header .rightArea .shop-cart {
+      width: 35px;
+      height: 35px;
+      margin-right: 25px;
+      border-left: 2px lightgrey solid;
+      font-size: 9px;
+      margin-left: 20px;
+      margin-top: -5px;
+      float: right;
+      padding-left: 8px;
+      text-align: center; }
 
 .nav-bar {
   width: 1100px;
@@ -81,7 +87,8 @@ a {
   font-size: 12px;
   color: grey;
   border: 1px grey solid;
-  text-decoration: none !important; }
+  text-decoration: none !important;
+  background: white; }
   .nav-bar ul {
     padding-left: 20px; }
   .nav-bar ul li {
@@ -108,9 +115,11 @@ a {
   margin-bottom: 20px;
   clear: both;
   border: 1px solid lightgrey;
-  float: left; }
+  float: left;
+  background: white; }
   .allcat a {
-    padding-left: 7px; }
+    padding-left: 7px;
+    color: black; }
   .allcat .categories {
     width: 160px;
     height: 311px;
@@ -128,16 +137,28 @@ a {
   .allcat li a {
     color: #34A7C2; }
 
-.img-container {
-  width: 800px;
-  height: 800px;
+.container {
+  width: 842px;
+  height: 840px;
   float: right;
-  border: solid light grey 1px;
-  margin: 0px 36px; }
-  .img-container .imageBox {
+  border: solid lightgrey 1px;
+  margin: 0px 33px; }
+
+.productBox {
+  width: 200px;
+  height: 200px;
+  float: left;
+  font-size: 10px;
+  margin: 5px;
+  border: 1px black solid;
+  background: white; }
+  .productBox .imageBox {
     width: 200px;
-    height: 200px;
-    float: left; }
+    height: 150px; }
+  .productBox p {
+    height: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
 
 .view-results {
   clear: both; }
