@@ -20,116 +20,116 @@ a {
     width: 1100px;
     border: solid 1px lightgrey;
     background: white;
+  }
 
-    .leftArea {
-  //  float: left;
-  //  margin-top: 8px;
-  //  margin-bottom: 8px;
-    padding-left: 24px;
+    .logo {
+      margin: 12px 24px;
+      //color:#F54E00;
+      font-size: 33px;
+      font-family: 'Playfair Display', serif;
+      float: left;
+
+      a {
+       color:#F54E00;
+      // font-size: 33px;
+      // font-family: 'Playfair Display', serif;
+      }
     }
 
-
-      ul {
-      //padding-left: 20px;
-      display:inline-block;
-      margin: 0px;
-      }
-
-      ul li {
-      display: inline-block;
-      font-size: 12px;
-    //  margin: 0px -3px;
-      }
-
-      .logo {
-        margin-top: 8px;
-        margin-right: 15px;
-
-
-        a {
-        color:#F54E00;
-        font-size: 33px;
-        font-family: 'Playfair Display', serif;
-        }
-      }
       .input-box {
-
-      }
-      input {
         width: 300px;
         height: 25px;
-        font-size: 10px;
         border: solid 1px lightgrey;
-        color: white;
+        float: left;
+        display: inline-block;
+        margin: 19px 0px;
+        //font-size: 12px;
+
+      input {
+        width: 300px;
+
+        }
       }
 
       .search-button {
         width: 55px;
-        //height: 25px;
-        //font-size: 12px;
+        height: 25px;
+        padding-top: 2px;
         background: #34A7C2;
         text-align: center;
-      //  color: white;
-        margin: -9px -5px;
-      //  float:left;
+        margin: 19px;
+        margin-right: 345px;
+        margin-left: 0px;
+        display: inline-block;
+
 
         a {
         color: white;
-      //  margin-top: 10px;
+        font-size: 11px;
         }
-
-        div {
-          width:55px;
-          height: 25px;
-          float: left;
-          padding-top: 6px;
-        }
-  }
+      }
 
 
 
-    .rightArea {
-      float: right;
-      padding-right: 37px;
-      padding-top: 13px;
+    .sell {
+      //float: right;
+      //padding-right: 37px;
+      //padding-top: 13px;
       margin: 4px;
-      height:55px;
+      //height:55px;
+      display: inline-block;
+      font-size: 12px;
+      color:#34A7C2;
 
-      li {
-        //margin: 0px 5px;
-      }
-      li div {
-        border: 2px #34A7C2 solid;
+    a {
+      color:#34A7C2;
+    }
+}
+    .register {
+        //border: 2px #34A7C2 solid;
         padding:5px;
-        border-radius: .5em;
-      }
-
-        li a {
+        display: inline-block;
+        font-size: 12px;
         color:#34A7C2;
-        margin: 0px 5px;
+        //float: right;
+
+      a {
+        color:#34A7C2;
       }
+}
+    .sign-in {
+
+        margin: 0px 5px;
+        font-size: 12px;
+        //width: 50px;
+        //height: 15px;
+        border-radius: .25em;
+        border: 2px #34A7C2 solid;
+        //float: right;
+        display: inline-block;
+        padding: 7px;
 
 
-    .customer-input {
-    font-size: 12px;
-    color: teal;
-    width: 50px;
-    height: 15px;
-  }
-   .shop-cart {
+      a {
+        color:#34A7C2;
+      }
+    }
+     .shop-cart {
      width: 35px;
      height: 35px;
-     margin-right: 25px;
      border-left: 2px lightgrey solid;
      font-size: 9px;
-     margin-left: 20px;
-     margin-top: -5px;
+     margin: 15px;
+     margin-right: 36px;
+     margin-left: 15px;
      float: right;
      padding-left: 8px;
      text-align: center;
+    // display: inline-block;
    }
-}
-}
+
+    a {}
+
 
 .nav-bar {
   width: 1100px;
