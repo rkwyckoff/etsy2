@@ -12,7 +12,7 @@
 
       return `
       <div class="productBox"><div class="imageBox">
-      <img src="${product.Images[0].url_170x135}"</</div>
+      <img class="imageSize" src="${product.Images[0].url_170x135}"</</div>
       <p>${product.title}</p>
       <p>${product.Shop.shop_name}
       ${product.price}</p>

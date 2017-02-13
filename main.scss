@@ -209,15 +209,25 @@ a {
     float: right;
     border: solid lightgrey 1px;
     margin: 0px 33px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 
 
-  span {
+    // .container:hover {
+    // background:red;
+    // }
 
-    }
-    span:last {
-      
-    }
-}
+    // .container:active {
+    // background:gold;
+    // }
+    // .container:link {}
+    // .container:visited {}
+    // .container:hover { background: gold; } /* user hovers */
+    // .container:active { background: white; } /* active links */
+
+
+
   .productBox {
     width: 200px;
     height: 200px;
@@ -226,19 +236,32 @@ a {
     margin: 5px;
     border: 1px black solid;
     background: white;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 
+  .productBox:hover {
+  background:red;
+  }
+
+  .imageSize {
+    width: 198px;
+    height:158px;
+  }
   .imageBox {
     width: 200px;
-    height: 150px;
+    height: 175px;
     }
 
     p {
-    height: 10px;
+    height: 8px;
+    width: 190px;
     text-overflow: ellipsis;
     white-space: nowrap;
     }
 
-  }
+
+
 
     .view-results {
     clear:both;
