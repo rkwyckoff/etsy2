@@ -12,10 +12,10 @@
 
       return `
       <div class="productBox"><div class="imageBox">
-      <img class="imageSize" src="${product.Images[0].url_170x135}"</</div>
-      <p>${product.title}</p>
-      <p>${product.Shop.shop_name}
-      ${product.price}</p>
+      <a href="${product.url}"><img class="imageSize" src="${product.Images[0].url_170x135}"/></a></div>
+      <a href="${product.url}"><p class="title">${product.title}</p>
+      <p class="shopname">${product.Shop.shop_name}</p>
+      <p class="price">$${product.price}</p>
       </div>`
    }
   }

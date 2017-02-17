@@ -163,10 +163,10 @@ a {
   border: 1px black solid;
   background: white;
   text-overflow: ellipsis;
-  white-space: nowrap; }
+  white-space: nowrap;
+  overflow: hidden;
+ }
 
-.productBox:hover {
-  background: red; }
 
 .imageSize {
   width: 198px;
@@ -174,13 +174,36 @@ a {
 
 .imageBox {
   width: 200px;
-  height: 175px; }
+  height: 158px; }
 
-p {
+p.title {
   height: 8px;
   width: 190px;
-  text-overflow: ellipsis;
-  white-space: nowrap; }
+  margin-top: 5px;
+  margin-bottom: 8px;
+  margin-right: 5px;
+}
+
+
+p.shopname {
+  float:left;
+  display: inline-block;
+  width: 75%;
+  height: 8px;
+  margin: 0px;
+  color:rgb(158, 158, 158);
+
+}
+p.price {
+  float: right;
+  display: inline-block;
+  width: 20%;
+  height:8px;
+  margin: 2px;
+  color: rgb(31, 201, 31);
+  /*z-index: 2;*/
+}
 
 .view-results {
-  clear: both; }
+  clear: both;
+}
